@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    list-style: none;
+}
+h3{
+    font-size: 30px;
+
+}
+
+.block{
+    text-align: center;
+}
+/*********************** header*********** */
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 95px 180px 200px 180px;
+    
+}
+
+.logo{
+    width: 40px;
+    height: 30px;
+}
+/* ************************************** */
+
+
+
+/**************** nav bar ******************/
+
+.navigation__list{
+    display: flex;
+    flex-flow: row wrap;
+    width: 430px;
+    justify-content: space-between;
+}
+
+.navigation__link{
+    text-decoration: none;
+    color: #aaaaaa;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    
+}
+
+.link--active{
+    color: black;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+
+
+
+/* *************************************************** */
+
+
+
+/* ********************main block */
+
+    /* first section */
+
+h1{
+    font-size: 70px;
+}    
+
+.basic-ph{
+    color: #aaaaaa;
+}
+
+
+.block--first{
+    display: block;
+    margin: 0 auto;
+    width: 950px;
+}
+
+
+/* second block */
+
+.block--second{
+    padding: 200px 180px;
+    text-align: center;
+}
+
+.h2{
+    font-size: 50px;
+    
+    
+}
+
+.instractors{
+    padding-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+.instractor__photo{
+    width: 290px;
+    height: 350px;
+}
+
+.instractor__ph{
+    color: yellowgreen;
+    font-size: 15px;
+}
