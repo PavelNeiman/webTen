@@ -104,9 +104,113 @@ h1{
 .instractor__photo{
     width: 290px;
     height: 350px;
+    border-radius: 30px;
 }
 
 .instractor__ph{
     color: yellowgreen;
     font-size: 15px;
+}
+
+
+            /* ******************usersblock */
+            .users__photo{
+                width: 530px;
+                height: 350px;
+                border-radius: 30px;
+            }
+
+
+            .users{
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: center;
+                align-items:center;
+                padding: 100px 0px 250px 0px;
+
+            }
+            
+            .users__info{
+                display: flex;
+                flex-flow: row wrap;
+                
+            }
+
+            .users__comm{
+                width: 530px;
+                height: 350px;
+                text-align: right;
+
+            }
+
+            .info--reverse{
+                display: flex;
+                flex-direction: row-reverse;
+                margin-top: 50px;
+                
+            }
+
+            .comm--reverse{
+                text-align: left;
+            }
+
+            .read-more__link{
+                text-decoration: none;
+                color: grey;
+                padding: 15px;
+                border: 2px solid grey;
+                border-radius: 35px;
+
+
+            }
+
+            .comm__ph{
+                margin: 25px 0px 25px 0px;
+                color:#9b9b9b;
+                font-style: italic;
+
+            }
+
+
+
+
+
+/* four****************  */
+
+.block-four{
+    text-align: center;
+    padding-bottom: 180px;
+}
+
+.callback-alert{
+    margin-bottom: 80px;
+}
+
+.callback-link{
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 15px 30px;
+    
+}
+
+.callback-link:hover{
+    color: wheat;
+    background-color: black;
+    border-radius: 30px;
+}
+
+
+
+/* ************************footer */
+
+.footer{
+    padding: 0px 0px 50px 300px;
+}
+
+.copyright{
+    color:gray;
+    font-size: 12px;
+    margin-top: 15px;
 }
